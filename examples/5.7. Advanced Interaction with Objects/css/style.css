@@ -1,0 +1,33 @@
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    padding:15px;
+}
+
+.left{
+    position: absolute;
+    top:250px;
+    margin-bottom: 10px;
+}
+
+.right{
+    position: absolute;
+    top:250px;
+    left:600px;
+    margin-bottom: 10px;
+}
+
+.right:hover{
+    cursor:pointer;
+}
+
+.left:hover{
+    cursor:pointer;
+}
+
+.btn{
+    background: #FF0000 ;
+    opacity: 0.5;
+    width: 200px;
+    height:40px;
+
+}

@@ -1,0 +1,19 @@
+{
+    "exames": [
+        {
+            "nome_paciente":"Leonardo",
+            "tipo":"cardiograma",
+            "obj":"../modelos/heart.obj"
+        },
+        {
+            "nome_paciente":"Lucas",
+            "tipo":"cardiograma",
+            "obj":"../modelos/heart.obj"
+        },
+        {
+            "nome_paciente":"Janis",
+            "tipo":"cardiograma",
+            "obj":"../modelos/heart.obj"
+        }
+    ]
+}

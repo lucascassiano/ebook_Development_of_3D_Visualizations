@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>5.6. Interaction with Objects</title>
+    
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Import three.js-->
+    <script src="js/three.js"></script>
+    <script src="js/MTLLoader.js"></script>
+    <script src="js/OBJLoader.js"></script>
+
+</head>
+
+<body>
+    
+    <div>
+        <h1>5.6. Interaction with Objects</h1>
+    </div>
+
+    <h2>Interactive Object</h2>
+    <script src="js/index.js"></script>
+    <div class="left" onclick="RotationLeft()"><img src="svg/button-left.svg"/></div>
+    <div class="right" onclick="RotationRight()"><img src="svg/button-right.svg"/></div>
+    <br>
+    <button  onclick="ShowHideCube()">show/hide Cube</button>
+
+    <input type="checkbox" name="rotation" id="automatic-rotation">Automatic rotation</input>
+
+    <footer>
+        Lucas Cassiano (c) - 2017
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.barra-lateral{
+  width: 20%;
+  min-width: 120px;
+  max-width: 300px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFF;
+  background: #BD10E0;
+  opacity: 0.5;
+  padding: 15px;
+}
+
+.nome-exame{
+  font-size: 28pt;
+  
+}
+
+.view3d{
+  width: 50%;
+  background-color: #000;
+  height: 1500px;
+}
